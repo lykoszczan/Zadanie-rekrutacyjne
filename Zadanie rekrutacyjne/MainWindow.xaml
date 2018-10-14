@@ -4,9 +4,37 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Zadanie_rekrutacyjne"
+        xmlns:commands="clr-namespace:Zadanie_rekrutacyjne.Commands"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Zadanie rekrutacyjne C#" Height="450" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="New" Executed="NewCommandBinding_Executed"/>
+        <CommandBinding Command="Open" Executed="OpenCommandBinding_Executed"/>
+        <CommandBinding Command="SaveAs" Executed="SaveAsCommandBinding_Executed" CanExecute="SaveToCommandBinding_CanExecute"/>
+        <CommandBinding Command="{x:Static commands:MyApplicationCommands.ConvetTo}" CanExecute="ConvertToCommandBinding_CanExecute"  Executed="ConvertToCommandBinding_Executed"/>
+        <CommandBinding Command="Close" Executed="CloseCommandBinding_Executed"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Key="N" Modifiers="Control" Command="New"/>
+        <KeyBinding Key="O" Modifiers="Control" Command="Open"/>
+        <KeyBinding Key="S" Modifiers="Ctrl+Alt" Command="SaveAs"/>
+        <KeyBinding Key="C" Modifiers="Ctrl+Alt" Command="{x:Static commands:MyApplicationCommands.ConvetTo}"/>
+        <KeyBinding Key="Q" Modifiers="Control" Command="Close"/>
+    </Window.InputBindings>
+    <Grid x:Name="Grid">
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Plik">
+                    <MenuItem Header="_Nowy" Command="New"  InputGestureText="Ctr+N">
+                    </MenuItem>
+                    <MenuItem Header="_Otwórz" Command="Open"  InputGestureText="Ctr+O"/>
+                    <MenuItem Header="_Zapisz obraz jako ..." Command="SaveAs" InputGestureText="Ctr+Alt+S"/>
+                    <MenuItem Header="_Kowertuj obraz do pliku ..." Command="{x:Static commands:MyApplicationCommands.ConvetTo}" InputGestureText="Ctr+Alt+C" />
+                    <Separator />
+                    <MenuItem Header="_Wyjście" InputGestureText="Ctr+Q" Command="Close"/>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <Image x:Name="Image" Margin="0,20,0,0" Stretch="None"/>
     </Grid>
 </Window>
