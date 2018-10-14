@@ -21,8 +21,15 @@ namespace Zadanie_rekrutacyjne
             pixels = new List<Pixel>();
             var lfile = File.ReadAllLines(path);
             var llist = new List<string>(lfile);
-            FillPixellist(llist);
-            FillBitmap(maxX, maxY);
+            try
+            {
+                FillPixellist(llist);
+                FillBitmap(maxX, maxY);
+            }
+            catch
+            {
+                MessageBox.Show("Format pliku jest nieprawidłowy!");
+            }
         }
         private void FillPixellist(List<string> values)
         {

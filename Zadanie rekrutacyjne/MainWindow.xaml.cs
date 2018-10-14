@@ -17,9 +17,6 @@ using System.Windows.Shapes;
 
 namespace Zadanie_rekrutacyjne
 {
-    /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         private BitmapSource bitmapSource;
@@ -142,7 +139,7 @@ namespace Zadanie_rekrutacyjne
             }
         }
 
-        void CreateThumbnail(string filename, BitmapSource image5)
+        private void CreateThumbnail(string filename, BitmapSource image5)
         {
             if (filename != string.Empty)
             {
