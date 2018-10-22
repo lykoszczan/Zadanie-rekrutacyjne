@@ -2,7 +2,7 @@
 
 ## Spis treści
 * [Opis](#opis)
-* [Cel powstania aplikacji](#cel-dzialania)
+* [Cel powstania aplikacji](#cel-powstania-aplikacji)
 * [Założenia projektowe](#zalozenia-projektowe)
 * [Działanie aplikacji](#dzialanie-aplikacji)
 
@@ -40,13 +40,12 @@ Przykładowy plik do wczytania to sample.txt
 Zadanie rekrutacyjne polegające na utworzeniu wizualnej aplikacji, której zadaniem jest wygenerowanie (w jak najkrótszym czasie) obrazu na podstawie wczytanego pliku o określonym formacie.
 
 ## Działanie aplikacji
-![Menu kontekstowe](./Zadanie rekrutacyjne/screenshots/main.png)
-
-<p>
+![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/main.png?raw=true) <p>
   Opis menu: <br>
   <ul>
     <li>Nowy - czyści zawartość ekranu</li>
     <li>Otwórz - otwiera plik tesktowy i wyświetla obraz na podstawie algorytmu</li>
     <li>Zapisz obraz jako ... - zapisuje wczytany obraz jako plik PN</li>
-  <li>Kowertuj obraz do pliku ... - konwertuje wczytany obraz do pliku tekstowego (ta opcja nie była wymagana w zadaniu, był to mój dodatek)</li>
+  <li>Kowertuj obraz do pliku ... - konwertuje wczytany obraz do pliku tekstowego</li>
     <li>Wyjście - zamyka aplikację</li>
+</ul>
