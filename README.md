@@ -3,8 +3,8 @@
 #### Spis treści
 * [Opis](#opis)
 * [Cel powstania aplikacji](#cel-powstania-aplikacji)
-* [Założenia projektowe](#zalozenia-projektowe)
-* [Działanie aplikacji](#dzialanie-aplikacji)
+* [Założenia projektowe](#załozenia-projektowe)
+* [Działanie aplikacji](#działanie-aplikacji)
 
 ## Opis
 Aplikacja służy do otwierania/zapisywania obrazów z/do plików tekstowych o określonym formacie. Powstała ona w lutym 2018 roku. Kod programu został napisany w języku C# i wykorzystuje on środowisko .NET w wersji 4.6.1. 
@@ -50,4 +50,5 @@ Zadanie rekrutacyjne polegające na utworzeniu wizualnej aplikacji, której zada
   <li>Kowertuj obraz do pliku ... - konwertuje wczytany obraz do pliku tekstowego</li>
     <li>Wyjście - zamyka aplikację</li>
 </ul>
-
+<p>Aby otworzyć obraz należy wybrać opcję otwórz i następnie wybrać plik txt</p>
+![Otwieranie](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true)
