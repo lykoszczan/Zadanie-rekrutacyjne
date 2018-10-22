@@ -52,7 +52,7 @@ Zadanie rekrutacyjne polegające na utworzeniu wizualnej aplikacji, której zada
 </ul>
 
 <p>Aby otworzyć obraz należy wybrać opcję otwórz i następnie wybrać plik txt</p>
-![otwieranie](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true) 
+![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true) 
 
 <p>Wczytany obraz prezentuje się następująco:</p>
-![wynik](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/wynik.png?raw=true) 
+![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/wynik.png?raw=true) 
