@@ -3,7 +3,7 @@
 #### Spis treści
 * [Opis](#opis)
 * [Cel powstania aplikacji](#cel-powstania-aplikacji)
-* [Założenia projektowe](#załozenia-projektowe)
+* [Założenia projektowe](#założenia-projektowe)
 * [Działanie aplikacji](#działanie-aplikacji)
 
 ## Opis
@@ -51,4 +51,5 @@ Zadanie rekrutacyjne polegające na utworzeniu wizualnej aplikacji, której zada
     <li>Wyjście - zamyka aplikację</li>
 </ul>
 <p>Aby otworzyć obraz należy wybrać opcję otwórz i następnie wybrać plik txt</p>
-![Otwieranie](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true)
+
+![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true) 
