@@ -39,6 +39,7 @@ Przykładowy plik do wczytania to sample.txt
 
 Zadanie rekrutacyjne polegające na utworzeniu wizualnej aplikacji, której zadaniem jest wygenerowanie (w jak najkrótszym czasie) obrazu na podstawie wczytanego pliku o określonym formacie.
 
+<a name="dzialanie-aplikacji"/>
 ## Działanie aplikacji
 ![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/main.png?raw=true) <p>
   Opis menu: <br>
