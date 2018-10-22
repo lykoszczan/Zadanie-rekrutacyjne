@@ -5,6 +5,8 @@
 * [Cel powstania aplikacji](#cel-powstania-aplikacji)
 * [Założenia projektowe](#założenia-projektowe)
 * [Działanie aplikacji](#działanie-aplikacji)
+* [Modyfikacje](#modyfikacje)
+* [Kontakt](#kontakt)
 
 ## Opis
 Aplikacja służy do otwierania/zapisywania obrazów z/do plików tekstowych o określonym formacie. Powstała ona w lutym 2018 roku. Kod programu został napisany w języku C# i wykorzystuje on środowisko .NET w wersji 4.6.1. 
@@ -52,7 +54,15 @@ Zadanie rekrutacyjne polegające na utworzeniu wizualnej aplikacji, której zada
 </ul>
 
 <p>Aby otworzyć obraz należy wybrać opcję otwórz i następnie wybrać plik txt</p>
-![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true) 
+
+![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true)
 
 <p>Wczytany obraz prezentuje się następująco:</p>
+
 ![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/wynik.png?raw=true) 
+
+## Modyfikacje
+<p> W wymaganiach projektu nie było uwzględniona, aby aplikacja potrafiła również działać "w drugą stronę" tzn. żeby potrafiła przekonwertować obraz do pliku tekstowego. Jednakże wydawało mi się to dość logiczną opcją i w ramach rozwoju własnych umiejętności postanowiłem ją dodać. Aby się o tym przekonać wystarczy uruchomić ją z menu głównego i postępować tak jak przy normalnym otwieraniu plików </p>
+
+## Kontakt
+<p> W razie jakichkolwiek pytań proszę się kontaktować pod mailem <a href="mailto: lykoszczan@gmail.com">lykoszczan@gmail.com</a></p>
