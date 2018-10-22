@@ -1,6 +1,6 @@
 # Zadanie-rekrutacyjne
 
-#### Spis treści
+## Spis treści
 * [Opis](#opis)
 * [Cel powstania aplikacji](#cel-powstania-aplikacji)
 * [Założenia projektowe](#założenia-projektowe)
@@ -50,6 +50,9 @@ Zadanie rekrutacyjne polegające na utworzeniu wizualnej aplikacji, której zada
   <li>Kowertuj obraz do pliku ... - konwertuje wczytany obraz do pliku tekstowego</li>
     <li>Wyjście - zamyka aplikację</li>
 </ul>
-<p>Aby otworzyć obraz należy wybrać opcję otwórz i następnie wybrać plik txt</p>
 
-![Menu kontekstowe](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true) 
+<p>Aby otworzyć obraz należy wybrać opcję otwórz i następnie wybrać plik txt</p>
+![otwieranie](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/otwieranie.png?raw=true) 
+
+<p>Wczytany obraz prezentuje się następująco:</p>
+![wynik](https://github.com/lykoszczan/Zadanie-rekrutacyjne/blob/master/Zadanie%20rekrutacyjne/screenshots/wynik.png?raw=true) 
