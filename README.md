@@ -48,7 +48,7 @@ Zadanie rekrutacyjne polegające na utworzeniu wizualnej aplikacji, której zada
   <ul>
     <li>Nowy - czyści zawartość ekranu</li>
     <li>Otwórz - otwiera plik tesktowy i wyświetla obraz na podstawie algorytmu</li>
-    <li>Zapisz obraz jako ... - zapisuje wczytany obraz jako plik PN</li>
+    <li>Zapisz obraz jako ... - zapisuje wczytany obraz jako plik PNG</li>
   <li>Kowertuj obraz do pliku ... - konwertuje wczytany obraz do pliku tekstowego</li>
     <li>Wyjście - zamyka aplikację</li>
 </ul>
